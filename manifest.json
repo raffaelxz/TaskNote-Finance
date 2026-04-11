@@ -2,8 +2,8 @@
   "name": "TaskNote Finance",
   "short_name": "TaskNote",
   "description": "Kelola keuangan bulanan dengan metode alokasi 50/20/20/10",
-  "start_url": "/index.html?source=pwa",
-  "scope": "/",
+  "start_url": "index.html?source=pwa",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
   "theme_color": "#c0ff8c",
@@ -28,12 +28,6 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
-    },
-    {
-      "src": "assets/icons/icon-512x512-B.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
     }
   ],
   "screenshots": [
@@ -42,40 +36,14 @@
       "sizes": "720x1280",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Halaman Beranda — Hitung Alokasi"
+      "label": "Halaman Beranda"
     },
     {
       "src": "assets/icons/screenshot2.png",
       "sizes": "720x1280",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Statistik Keuangan Bulanan"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "Hitung Alokasi",
-      "short_name": "Hitung",
-      "description": "Langsung ke kalkulator alokasi",
-      "url": "/index.html?page=home&source=shortcut",
-      "icons": [
-        {
-          "src": "assets/icons/icon-192x192-A.png",
-          "sizes": "192x192"
-        }
-      ]
-    },
-    {
-      "name": "Lihat Statistik",
-      "short_name": "Statistik",
-      "description": "Buka halaman statistik keuangan",
-      "url": "/index.html?page=stats&source=shortcut",
-      "icons": [
-        {
-          "src": "assets/icons/icon-192x192-A.png",
-          "sizes": "192x192"
-        }
-      ]
+      "label": "Statistik Keuangan"
     }
   ]
 }
