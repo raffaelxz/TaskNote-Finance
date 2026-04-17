@@ -1,4 +1,4 @@
-const CACHE_NAME = 'tasknote-v1';
+const CACHE_NAME = 'tasknote-v2';
 const OFFLINE_PAGE = '/offline.html';
 
 // Aset yang di-pre-cache saat install (app shell)
