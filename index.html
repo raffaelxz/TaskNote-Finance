@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>TaskNote Finance</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#080808">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" href="assets/icons/icon-192x192-A.png">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
@@ -592,6 +597,15 @@ const tmp=sessionStorage.getItem('tmp_user');
 if(tmp&&!currentUser){currentUser=JSON.parse(tmp);currentIncome=currentUser.lastIncome||0;renderApp()}
 else if(currentUser)renderApp();
 else showAuth();
+</script>
+    <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./service-worker.js')
+        .then(reg => console.log('Service Worker Berhasil!'))
+        .catch(err => console.error('Service Worker Gagal!', err));
+    });
+  }
 </script>
 </body>
 </html>
