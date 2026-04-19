@@ -5,6 +5,7 @@
   "start_url": "./index.html",
   "id": "/TaskNote-Finance/",
   "prefer_related_applications": false,
+  "related_applications": [],
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
