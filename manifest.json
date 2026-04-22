@@ -4,8 +4,6 @@
   "description": "Kelola keuangan bulanan dengan metode alokasi 50/20/20/10",
   "start_url": "./index.html",
   "id": "/TaskNote-Finance/",
-  "prefer_related_applications": false,
-  "related_applications": [],
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
@@ -41,6 +39,17 @@
       "url": "/index.html?uri=%s"
     }
   ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "share_target": {
+    "action": "/index.html?action=share",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
   "icons": [
     {
       "src": "assets/icons/icon-192x192-A.png",
