@@ -113,6 +113,7 @@
       "label": "Tampilan Desktop"
     }
   ],
+  "scope": "/TaskNote-Finance/",
   "scope_extensions": [
     {
       "origin": "https://raffaelxz.github.io"
