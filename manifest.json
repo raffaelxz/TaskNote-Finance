@@ -6,6 +6,8 @@
   "id": "/TaskNote-Finance/",
   "prefer_related_applications": false,
   "related_applications": [],
+  "shortcuts": [],
+  "file_handlers": [],
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
