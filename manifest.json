@@ -55,6 +55,12 @@
       "url": "url"
     }
   },
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "note_taking": {
+    "new_note_url": "/index.html?action=new-note"
+  },
   "icons": [
     {
       "src": "assets/icons/icon-192x192-A.png",
