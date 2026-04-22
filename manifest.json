@@ -107,7 +107,7 @@
     },
     {
       "src": "assets/icons/desktop.png",
-      "sizes": "720x1080",
+      "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Tampilan Desktop"
