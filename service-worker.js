@@ -166,6 +166,22 @@ self.addEventListener('sync', (event) => {
   }
 });
 
+// Listener untuk Periodic Background Sync
+self.addEventListener('periodicsync', (event) => {
+  if (event.tag === 'update-finance-data') {
+    event.waitUntil(fetchAndCacheData()); // Fungsi untuk update data keuangan
+  }
+});
+
+// Logic sederhana untuk Offline Support
+self.addEventListener('fetch', (event) => {
+  event.respondWith(
+    caches.match(event.request).then((response) => {
+      return response || fetch(event.request);
+    })
+  );
+});
+
 // ── PUSH NOTIFICATION (opsional) ─────────────────────────────
 self.addEventListener('push', (event) => {
   const data = event.data?.json() ?? {
