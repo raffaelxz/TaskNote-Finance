@@ -99,14 +99,14 @@
       "label": "Statistik Keuangan"
     },
     {
-      "src": "assets/screenshots/mobile.png",
+      "src": "assets/icons/mobile.png",
       "sizes": "1080x2280",
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Tampilan Mobile"
     },
     {
-      "src": "assets/screenshots/desktop.png",
+      "src": "assets/icons/desktop.png",
       "sizes": "1920x1080",
       "type": "image/png",
       "form_factor": "wide",
