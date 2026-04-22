@@ -10,6 +10,8 @@
   "theme_color": "#c0ff8c",
   "background_color": "#080808",
   "lang": "id",
+  "dir": "ltr",
+  "iarc_rating_id": "e58c671a-01d7-466d-ad02-3932822a9462",
   "categories": ["finance", "productivity"],
   "shortcuts": [
     {
