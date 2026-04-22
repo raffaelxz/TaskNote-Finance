@@ -13,6 +13,11 @@
   "dir": "ltr",
   "iarc_rating_id": "e58c671a-01d7-466d-ad02-3932822a9462",
   "categories": ["finance", "productivity"],
+  "scope_extensions": [
+    {
+      "origin": "https://raffaelxz.github.io"
+    }
+  ],
   "shortcuts": [
     {
       "name": "Hitung",
