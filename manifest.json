@@ -97,6 +97,20 @@
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Statistik Keuangan"
+    },
+    {
+      "src": "assets/screenshots/mobile.png",
+      "sizes": "1080x2280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Tampilan Mobile"
+    },
+    {
+      "src": "assets/screenshots/desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Tampilan Desktop"
     }
   ]
 }
