@@ -6,8 +6,6 @@
   "id": "/TaskNote-Finance/",
   "prefer_related_applications": false,
   "related_applications": [],
-  "shortcuts": [],
-  "file_handlers": [],
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
@@ -15,6 +13,25 @@
   "background_color": "#080808",
   "lang": "id",
   "categories": ["finance", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Hitung",
+      "url": "/index.html?page=home",
+      "icons": [{"src": "assets/icons/icon-192x192-A.png", "sizes": "192x192"}]
+    },
+    {
+      "name": "Statistik",
+      "url": "/index.html?page=stats",
+      "icons": [{"src": "assets/icons/icon-192x192-A.png", "sizes": "192x192"}]
+    }
+  ],
+   "file_handlers": [
+    {
+      "action": "/index.html?action=open",
+      "accept": {"application/json": [".json"]},
+      "launch_type": "single-client"
+    }
+  ],
   "icons": [
     {
       "src": "assets/icons/icon-192x192-A.png",
