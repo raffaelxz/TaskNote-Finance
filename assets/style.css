@@ -167,7 +167,7 @@
         .auth-wrap{position:fixed;inset:0;background:#080808;z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px}
         .auth-box{background:#0e0e0e;border-radius:32px;padding:36px 26px;max-width:380px;width:100%;border:1px solid var(--border2)}
         .auth-logo{text-align:center;margin-bottom:20px}
-        .auth-logo-circle{width:100%;height:auto;border-radius:0px;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;font-size:1.8rem;box-shadow:0 12px 32px rgba(192,255,140,0.2)}
+        .auth-logo-circle{width:120px;height:120px;border-radius:22px;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;font-size:1.8rem;box-shadow:0 12px 32px rgba(192,255,140,0.2)}
         .auth-logo-circle i{color:#000}
         .auth-logo h1{font-size:1.5rem;font-weight:800;letter-spacing:-0.5px;background:linear-gradient(130deg,var(--primary),#80e040);-webkit-background-clip:text;background-clip:text;color:transparent}
         .auth-logo p{font-size:0.75rem;color:var(--text3);margin-top:5px}
