@@ -112,5 +112,10 @@
       "form_factor": "wide",
       "label": "Tampilan Desktop"
     }
+  ],
+  "scope_extensions": [
+    {
+      "origin": "https://raffaelxz.github.io"
+    }
   ]
 }
