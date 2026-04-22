@@ -32,6 +32,15 @@
       "launch_type": "single-client"
     }
   ],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+tasknote",
+      "url": "/index.html?uri=%s"
+    }
+  ],
   "icons": [
     {
       "src": "assets/icons/icon-192x192-A.png",
