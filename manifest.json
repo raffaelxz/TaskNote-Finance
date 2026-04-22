@@ -39,7 +39,12 @@
       "url": "/index.html?uri=%s"
     }
   ],
-  "related_applications": [],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://raffaelxz.github.io/TaskNote-Finance/manifest.json"
+    }
+  ],
   "prefer_related_applications": false,
   "share_target": {
     "action": "/index.html?action=share",
